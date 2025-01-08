@@ -16,7 +16,6 @@
 }
 
 body {
-    background-image: url(./img/imagem\ 2.jpg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -34,6 +33,8 @@ main {
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra fraca */
+    transition: 0.3s;
 
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@ h1, h2 {
 }
 
 h2 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 400;
     line-height: 32px;
@@ -115,16 +116,18 @@ form {
 }
 
 .botao-excluir {
-    background-color: red;  /* Cor de fundo do botão */
+    background-color: transparent;  /* Cor de fundo do botão */
     color: white;  /* Cor do texto */
     border: none;  /* Sem borda */
     padding: 4px 6px;  /* Espessura do botão */
     cursor: pointer;  /* Cursor de clique */
     border-radius: 5px;  /* Bordas arredondadas */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
 }
 
 .botao-excluir:hover {
-    background-color: darkred;  /* Cor do botão quando o mouse passa sobre ele */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
 }
 
 
@@ -246,3 +249,4 @@ ul {
         padding: 12px 12px;
     }
 }
+
