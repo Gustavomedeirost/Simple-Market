@@ -25,7 +25,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 main {
@@ -113,6 +113,20 @@ form {
     display: flex;
     gap: 8px;
 }
+
+.botao-excluir {
+    background-color: red;  /* Cor de fundo do botão */
+    color: white;  /* Cor do texto */
+    border: none;  /* Sem borda */
+    padding: 4px 6px;  /* Espessura do botão */
+    cursor: pointer;  /* Cursor de clique */
+    border-radius: 5px;  /* Bordas arredondadas */
+}
+
+.botao-excluir:hover {
+    background-color: darkred;  /* Cor do botão quando o mouse passa sobre ele */
+}
+
 
 ul {
     list-style-type: none;
